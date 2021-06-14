@@ -1,0 +1,89 @@
+/* STYLE FOR index.php */
+.container{
+    display: block;
+    margin: 10px auto;
+    padding: auto;
+    width: 984.5px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-radius: 30px;
+}
+    form{
+        display: inline-block;
+        width: 450px;
+        height: 400px;
+        vertical-align: top;
+        padding: 20px;
+    }
+    #process_register{
+        background-color: rgb(38, 164, 163);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+        .note{
+            color: white;
+            margin-top: 5px;
+            display: block;
+            text-align: center;
+        }
+    #process_login{
+        background-color: rgb(245, 124, 36);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+        h2{
+            display: block;
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        #process_login h2{
+            margin-bottom: 80px;
+        }
+        .label{
+            display: inline-block;
+            vertical-align: top;
+        }
+            .label label{
+                display: block;
+                width: 150px;
+                margin-left: 40px;
+                color: white;
+                padding: 5px 5px 7px 5px;
+                margin-top: 16px;
+            }
+        .input{
+            display: inline-block;
+            width: 230px;
+            vertical-align: top;
+        }
+            input{
+                display: block;
+                width: 200px;
+                margin-bottom: 2px;
+                padding: 5px;
+                border-radius: 5px;
+                border-color: black;
+            }
+            p{
+                display: inline-block;
+                margin: 0px;
+            }
+            .input p{
+                font-size: 12px;
+            }
+        #register, #login{
+            display: block;
+            background-color: red;
+            box-shadow: 5px 5px 5px black;
+            border: 3px solid lightcoral;
+            padding: 5px;
+            color: white;
+            font-weight: 10px;
+        }
+        #register{
+            margin: 20px auto;
+        }
+        #login{
+            margin: 130px auto;
+        }
